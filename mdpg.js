@@ -1,5 +1,3 @@
-// Created by Garet Robertson
-// See HTML page for more information
 function convert (a) {
 	switch (a) {
 		case 0:
@@ -21,6 +19,7 @@ function convert (a) {
 			return 1;
 	}
 }
+
 function mul () {
 	// generate two random numbers
 	var int1 = Math.floor(Math.random() * 5);
@@ -36,8 +35,8 @@ function mul () {
 	// put solution on page
 	document.getElementById("solution").innerHTML = "The solution is: " + int1 * int2 + ".";
 }
+
 function div () {
-	// generate two random numbers to multiply
 	var int1 = Math.floor(Math.random() * 5);
 	var int2 = Math.floor(Math.random() * 5);
 	
